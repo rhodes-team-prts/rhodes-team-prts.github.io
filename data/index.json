@@ -1,254 +1,14 @@
 {
   "version": "1.0.0",
   "format": "multi-dataset",
-  "created_at": "2026-04-02T20:55:52.106329",
+  "created_at": "2026-04-14T11:05:00.578676",
   "repository": "TeleEmbodied/hdf5-lerobot",
-  "total_datasets": 22,
-  "total_size": "46.42 GB",
-  "total_size_bytes": 49839149931,
-  "total_episodes": 4198,
-  "total_frames": 881580,
+  "total_datasets": 30,
+  "total_size": "64.52 GB",
+  "total_size_bytes": 69281748976,
+  "total_episodes": 5806,
+  "total_frames": 1219260,
   "datasets": [
-    {
-      "id": "1.15tea1",
-      "name": "1.15tea1",
-      "task": "Left gripper grasps the white teacup on the coaster and places it at the fixed position on the tea table. Left gripper returns to initial-like position.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "1.49 GB",
-      "size_bytes": 1602247990,
-      "episodes": 200,
-      "frames": 42000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.15tea1/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.15tea1/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.15tea1/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.15tea1/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.870338"
-      }
-    },
-    {
-      "id": "1.16tea2",
-      "name": "1.16tea2",
-      "task": "right gripper grasps the white teacup and places it on the black glass base.Right gripper grasps the black lid on the teapot and places it in the fixed position on the tea tray. Right gripper grasps the teaspoon and pours the tea leaves into the black teapot.Right gripper returns to initial-like position.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "5.78 GB",
-      "size_bytes": 6205436195,
-      "episodes": 199,
-      "frames": 41790,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.16tea2/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.16tea2/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.16tea2/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.16tea2/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.881313"
-      }
-    },
-    {
-      "id": "1.28tea3",
-      "name": "1.28tea3",
-      "task": "Left gripper grasps the white kettle and pours water into the black teapot. Right gripper grasps the black teapot lid and covers the black teapot. Right gripper presses the black teapot lid to let water flow into the white cup. Right gripper grasps the white cup and places it in the fixed position on the tea tray. Left gripper grasps the white cup and places it on the coaster. Left and right grippers returns to initial-like position.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "7.89 GB",
-      "size_bytes": 8470768738,
-      "episodes": 200,
-      "frames": 42000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.28tea3/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.28tea3/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.28tea3/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/1.28tea3/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.891963"
-      }
-    },
-    {
-      "id": "2.10jiaojie",
-      "name": "2.10jiaojie",
-      "task": "Left gripper grasps the pen holder.Right gripper takes the pen holder and places it in the fixed position on the tea tray.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "1.74 GB",
-      "size_bytes": 1868986906,
-      "episodes": 200,
-      "frames": 42000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.10jiaojie/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.10jiaojie/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.10jiaojie/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.10jiaojie/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.902306"
-      }
-    },
-    {
-      "id": "2.11anniu_left",
-      "name": "2.11anniu_left",
-      "task": "Left gripper presses the button.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "454.02 MB",
-      "size_bytes": 476070086,
-      "episodes": 100,
-      "frames": 21000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_left/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_left/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_left/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_left/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.908669"
-      }
-    },
-    {
-      "id": "2.11anniu_right",
-      "name": "2.11anniu_right",
-      "task": "Right gripper presses the button.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "448.05 MB",
-      "size_bytes": 469810307,
-      "episodes": 100,
-      "frames": 21000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_right/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_right/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_right/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.11anniu_right/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.916699"
-      }
-    },
-    {
-      "id": "2.2picktea",
-      "name": "2.2picktea",
-      "task": "The left gripper picks up the pen holder and places it in the middle of the table; the right gripper picks up the pen from the pen holder and places it on the right side.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "2.38 GB",
-      "size_bytes": 2559225147,
-      "episodes": 200,
-      "frames": 42000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.2picktea/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.2picktea/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.2picktea/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.2picktea/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.931942"
-      }
-    },
-    {
-      "id": "2.3chagai",
-      "name": "2.3chagai",
-      "task": "Right gripper takes the black teapot lid off the black teapot and places it in the designated position on the tea tray.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "1.62 GB",
-      "size_bytes": 1738540023,
-      "episodes": 200,
-      "frames": 42000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.3chagai/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.3chagai/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.3chagai/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.3chagai/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.946658"
-      }
-    },
-    {
-      "id": "2.4daocha",
-      "name": "2.4daocha",
-      "task": "Right gripper grasps the teaspoon and pours the tea leaves into the black teapot.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "2.28 GB",
-      "size_bytes": 2446988233,
-      "episodes": 200,
-      "frames": 42000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.4daocha/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.4daocha/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.4daocha/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.4daocha/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.958875"
-      }
-    },
-    {
-      "id": "2.5daoshui",
-      "name": "2.5daoshui",
-      "task": "Left gripper grasps the teapot and pours the water into the black teapot. Left gripper puts the teapot on the tea table.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "2.32 GB",
-      "size_bytes": 2493047836,
-      "episodes": 199,
-      "frames": 41790,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.5daoshui/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.5daoshui/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.5daoshui/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.5daoshui/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.970364"
-      }
-    },
-    {
-      "id": "2.6anshui",
-      "name": "2.6anshui",
-      "task": "Right grabber presses on the black tea lid to let the tea flow into the white cup.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "1.36 GB",
-      "size_bytes": 1462856854,
-      "episodes": 201,
-      "frames": 42210,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.6anshui/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.6anshui/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.6anshui/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.6anshui/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.981850"
-      }
-    },
-    {
-      "id": "2.9jingcha",
-      "name": "2.9jingcha",
-      "task": "Left gripper grasps the teacup and places it on the green coaster.",
-      "robot_type": "realman75",
-      "fps": 20,
-      "size": "1.31 GB",
-      "size_bytes": 1407912501,
-      "episodes": 200,
-      "frames": 42000,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.9jingcha/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.9jingcha/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.9jingcha/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/2.9jingcha/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-02T20:55:51.993792"
-      }
-    },
     {
       "id": "DUR_FlipTennisTube",
       "name": "DUR_FlipTennisTube",
@@ -266,7 +26,87 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_FlipTennisTube/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.004967"
+        "created_at": "2026-04-14T11:05:00.293434"
+      }
+    },
+    {
+      "id": "DUR_Handover_convert",
+      "name": "DUR_Handover_convert",
+      "task": "Left gripper grasps the pen holder.Right gripper takes the pen holder and places it in the fixed position on the tea tray.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "1.74 GB",
+      "size_bytes": 1868986906,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Handover_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Handover_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Handover_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Handover_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.304204"
+      }
+    },
+    {
+      "id": "DUR_LongTermTea1_convert",
+      "name": "DUR_LongTermTea1_convert",
+      "task": "Left gripper grasps the white teacup on the coaster and places it at the fixed position on the tea table. Left gripper returns to initial-like position.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "1.49 GB",
+      "size_bytes": 1602247990,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea1_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea1_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea1_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea1_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.315011"
+      }
+    },
+    {
+      "id": "DUR_LongTermTea2_convert",
+      "name": "DUR_LongTermTea2_convert",
+      "task": "right gripper grasps the white teacup and places it on the black glass base.Right gripper grasps the black lid on the teapot and places it in the fixed position on the tea tray. Right gripper grasps the teaspoon and pours the tea leaves into the black teapot.Right gripper returns to initial-like position.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "5.78 GB",
+      "size_bytes": 6205436195,
+      "episodes": 199,
+      "frames": 41790,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea2_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea2_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea2_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea2_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.326047"
+      }
+    },
+    {
+      "id": "DUR_LongTermTea3_convert",
+      "name": "DUR_LongTermTea3_convert",
+      "task": "Left gripper grasps the white kettle and pours water into the black teapot. Right gripper grasps the black teapot lid and covers the black teapot. Right gripper presses the black teapot lid to let water flow into the white cup. Right gripper grasps the white cup and places it in the fixed position on the tea tray. Left gripper grasps the white cup and places it on the coaster. Left and right grippers returns to initial-like position.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "7.89 GB",
+      "size_bytes": 8470768738,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea3_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea3_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea3_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea3_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.336908"
       }
     },
     {
@@ -286,7 +126,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_MoveNovelSet/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.016996"
+        "created_at": "2026-04-14T11:05:00.347479"
       }
     },
     {
@@ -306,7 +146,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_OpenDrawer/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.027936"
+        "created_at": "2026-04-14T11:05:00.359075"
       }
     },
     {
@@ -326,7 +166,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PaperRubbish/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.039146"
+        "created_at": "2026-04-14T11:05:00.369304"
       }
     },
     {
@@ -346,7 +186,27 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PickShoes/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.050461"
+        "created_at": "2026-04-14T11:05:00.379395"
+      }
+    },
+    {
+      "id": "DUR_Pickpen_convert",
+      "name": "DUR_Pickpen_convert",
+      "task": "The left gripper picks up the pen holder and places it in the middle of the table; the right gripper picks up the pen from the pen holder and places it on the right side.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "2.38 GB",
+      "size_bytes": 2559225147,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Pickpen_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Pickpen_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Pickpen_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Pickpen_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.389730"
       }
     },
     {
@@ -366,7 +226,127 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PlaceBlock/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.061908"
+        "created_at": "2026-04-14T11:05:00.399890"
+      }
+    },
+    {
+      "id": "DUR_PourTea_convert",
+      "name": "DUR_PourTea_convert",
+      "task": "Right gripper grasps the teaspoon and pours the tea leaves into the black teapot.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "2.28 GB",
+      "size_bytes": 2446988233,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourTea_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourTea_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourTea_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourTea_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.409719"
+      }
+    },
+    {
+      "id": "DUR_PourWater_convert",
+      "name": "DUR_PourWater_convert",
+      "task": "Left gripper grasps the teapot and pours the water into the black teapot. Left gripper puts the teapot on the tea table.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "2.32 GB",
+      "size_bytes": 2493047836,
+      "episodes": 199,
+      "frames": 41790,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourWater_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourWater_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourWater_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourWater_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.418235"
+      }
+    },
+    {
+      "id": "DUR_PressButton_left_convert",
+      "name": "DUR_PressButton_left_convert",
+      "task": "Left gripper presses the button.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "454.02 MB",
+      "size_bytes": 476070086,
+      "episodes": 100,
+      "frames": 21000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_left_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_left_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_left_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_left_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.422990"
+      }
+    },
+    {
+      "id": "DUR_PressButton_right_convert",
+      "name": "DUR_PressButton_right_convert",
+      "task": "Right gripper presses the button.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "448.05 MB",
+      "size_bytes": 469810307,
+      "episodes": 100,
+      "frames": 21000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_right_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_right_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_right_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_right_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.427937"
+      }
+    },
+    {
+      "id": "DUR_PressWater_convert",
+      "name": "DUR_PressWater_convert",
+      "task": "Right grabber presses on the black tea lid to let the tea flow into the white cup.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "1.36 GB",
+      "size_bytes": 1462856854,
+      "episodes": 201,
+      "frames": 42210,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressWater_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressWater_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressWater_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressWater_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.436866"
+      }
+    },
+    {
+      "id": "DUR_ServeTea_convert",
+      "name": "DUR_ServeTea_convert",
+      "task": "Left gripper grasps the teacup and places it on the green coaster.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "1.31 GB",
+      "size_bytes": 1407912501,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_ServeTea_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_ServeTea_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_ServeTea_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_ServeTea_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.446046"
       }
     },
     {
@@ -386,7 +366,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_StackBowl/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.073497"
+        "created_at": "2026-04-14T11:05:00.455385"
       }
     },
     {
@@ -406,7 +386,27 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_StackCups/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.084984"
+        "created_at": "2026-04-14T11:05:00.464326"
+      }
+    },
+    {
+      "id": "DUR_TeaLid_convert",
+      "name": "DUR_TeaLid_convert",
+      "task": "Right gripper takes the black teapot lid off the black teapot and places it in the designated position on the tea tray.",
+      "robot_type": "realman75",
+      "fps": 20,
+      "size": "1.62 GB",
+      "size_bytes": 1738540023,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_TeaLid_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_TeaLid_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_TeaLid_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_TeaLid_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.473007"
       }
     },
     {
@@ -426,7 +426,67 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_TransButtons/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.095934"
+        "created_at": "2026-04-14T11:05:00.481886"
+      }
+    },
+    {
+      "id": "DUR_colorful_cube_convert",
+      "name": "DUR_colorful_cube_convert",
+      "task": "Left hand picks up a cube, put it on the middle cube. Right hand picks up a cube, put it on the middle cube.",
+      "robot_type": "rm75",
+      "fps": 20,
+      "size": "3.95 GB",
+      "size_bytes": 4239572276,
+      "episodes": 200,
+      "frames": 42000,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_colorful_cube_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_colorful_cube_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_colorful_cube_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_colorful_cube_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.492167"
+      }
+    },
+    {
+      "id": "DUR_cup_convert",
+      "name": "DUR_cup_convert",
+      "task": "Right hand picks up the cup, left hand takes it and put down.",
+      "robot_type": "rm75",
+      "fps": 20,
+      "size": "2.39 GB",
+      "size_bytes": 2568694471,
+      "episodes": 201,
+      "frames": 42210,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_cup_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_cup_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_cup_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_cup_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.501298"
+      }
+    },
+    {
+      "id": "DUR_fruit_to_basket_convert",
+      "name": "DUR_fruit_to_basket_convert",
+      "task": "One hand picks up a bunch of grapes, the other hand picks up a banana, and put them in the basket.",
+      "robot_type": "acone",
+      "fps": 20,
+      "size": "1.10 GB",
+      "size_bytes": 1176371204,
+      "episodes": 201,
+      "frames": 42210,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_fruit_to_basket_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_fruit_to_basket_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_fruit_to_basket_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_fruit_to_basket_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.512844"
       }
     },
     {
@@ -446,7 +506,107 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_longterm1/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-02T20:55:52.106100"
+        "created_at": "2026-04-14T11:05:00.523638"
+      }
+    },
+    {
+      "id": "DUR_rubbish_bin_convert",
+      "name": "DUR_rubbish_bin_convert",
+      "task": "Right hand open the rubbish bin, left hand picks up a paper ball and put it into the bin. Then right hand closes the bin.",
+      "robot_type": "rm75",
+      "fps": 20,
+      "size": "3.91 GB",
+      "size_bytes": 4200118876,
+      "episodes": 201,
+      "frames": 42210,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.533024"
+      }
+    },
+    {
+      "id": "DUR_shelf_convert",
+      "name": "DUR_shelf_convert",
+      "task": "",
+      "robot_type": "unknown",
+      "fps": 30,
+      "size": "79.63 MB",
+      "size_bytes": 83493909,
+      "episodes": 201,
+      "frames": 42210,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.541758"
+      }
+    },
+    {
+      "id": "DUR_sweep_paper_ball_convert",
+      "name": "DUR_sweep_paper_ball_convert",
+      "task": "",
+      "robot_type": "unknown",
+      "fps": 30,
+      "size": "76.75 MB",
+      "size_bytes": 80479319,
+      "episodes": 201,
+      "frames": 42210,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.549673"
+      }
+    },
+    {
+      "id": "DUR_twist_bottle_cap_convert",
+      "name": "DUR_twist_bottle_cap_convert",
+      "task": "Twist the cap off a bottle using the right hand while stabilizing the bottle with the left hand.",
+      "robot_type": "acone",
+      "fps": 20,
+      "size": "2.21 GB",
+      "size_bytes": 2367806817,
+      "episodes": 183,
+      "frames": 38430,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_twist_bottle_cap_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_twist_bottle_cap_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_twist_bottle_cap_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_twist_bottle_cap_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.559187"
+      }
+    },
+    {
+      "id": "DUR_unlock_convert",
+      "name": "DUR_unlock_convert",
+      "task": "Unlock a lock using the a key. The key is held in the right gripper.",
+      "robot_type": "acone",
+      "fps": 20,
+      "size": "4.40 GB",
+      "size_bytes": 4726062173,
+      "episodes": 220,
+      "frames": 46200,
+      "sample_videos": [
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_unlock_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_unlock_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
+        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_unlock_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
+      ],
+      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_unlock_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
+      "_meta": {
+        "created_at": "2026-04-14T11:05:00.578427"
       }
     }
   ]
