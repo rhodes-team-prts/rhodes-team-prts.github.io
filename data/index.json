@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
   "format": "multi-dataset",
-  "created_at": "2026-04-14T11:05:00.578676",
+  "created_at": "2026-04-14T18:48:00.588493",
   "repository": "TeleEmbodied/hdf5-lerobot",
-  "total_datasets": 30,
-  "total_size": "64.52 GB",
-  "total_size_bytes": 69281748976,
-  "total_episodes": 5806,
-  "total_frames": 1219260,
+  "total_datasets": 27,
+  "total_size": "60.46 GB",
+  "total_size_bytes": 64917681094,
+  "total_episodes": 5203,
+  "total_frames": 1092630,
   "datasets": [
     {
       "id": "DUR_FlipTennisTube",
@@ -16,7 +16,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.42 GB",
-      "size_bytes": 1520361536,
+      "size_bytes": 1520362637,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -26,7 +26,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_FlipTennisTube/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.293434"
+        "created_at": "2026-04-14T18:48:00.298315"
       }
     },
     {
@@ -36,7 +36,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.74 GB",
-      "size_bytes": 1868986906,
+      "size_bytes": 1868988006,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -46,7 +46,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Handover_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.304204"
+        "created_at": "2026-04-14T18:48:00.311217"
       }
     },
     {
@@ -56,7 +56,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.49 GB",
-      "size_bytes": 1602247990,
+      "size_bytes": 1602249144,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -66,7 +66,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea1_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.315011"
+        "created_at": "2026-04-14T18:48:00.322314"
       }
     },
     {
@@ -76,7 +76,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "5.78 GB",
-      "size_bytes": 6205436195,
+      "size_bytes": 6205437503,
       "episodes": 199,
       "frames": 41790,
       "sample_videos": [
@@ -86,7 +86,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea2_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.326047"
+        "created_at": "2026-04-14T18:48:00.332985"
       }
     },
     {
@@ -96,7 +96,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "7.89 GB",
-      "size_bytes": 8470768738,
+      "size_bytes": 8470770177,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -106,7 +106,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_LongTermTea3_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.336908"
+        "created_at": "2026-04-14T18:48:00.345979"
       }
     },
     {
@@ -116,7 +116,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.87 GB",
-      "size_bytes": 2005723070,
+      "size_bytes": 2005724133,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -126,7 +126,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_MoveNovelSet/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.347479"
+        "created_at": "2026-04-14T18:48:00.365304"
       }
     },
     {
@@ -136,7 +136,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.72 GB",
-      "size_bytes": 1851697451,
+      "size_bytes": 1851698525,
       "episodes": 199,
       "frames": 41790,
       "sample_videos": [
@@ -146,7 +146,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_OpenDrawer/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.359075"
+        "created_at": "2026-04-14T18:48:00.379653"
       }
     },
     {
@@ -156,7 +156,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "912.06 MB",
-      "size_bytes": 956361164,
+      "size_bytes": 956362220,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -166,7 +166,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PaperRubbish/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.369304"
+        "created_at": "2026-04-14T18:48:00.390786"
       }
     },
     {
@@ -176,7 +176,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "2.01 GB",
-      "size_bytes": 2155116853,
+      "size_bytes": 2155117896,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -186,7 +186,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PickShoes/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.379395"
+        "created_at": "2026-04-14T18:48:00.403295"
       }
     },
     {
@@ -196,7 +196,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "2.38 GB",
-      "size_bytes": 2559225147,
+      "size_bytes": 2559226289,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -206,7 +206,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_Pickpen_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.389730"
+        "created_at": "2026-04-14T18:48:00.413983"
       }
     },
     {
@@ -216,7 +216,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.05 GB",
-      "size_bytes": 1126903515,
+      "size_bytes": 1126904539,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -226,7 +226,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PlaceBlock/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.399890"
+        "created_at": "2026-04-14T18:48:00.424517"
       }
     },
     {
@@ -236,7 +236,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "2.28 GB",
-      "size_bytes": 2446988233,
+      "size_bytes": 2446989286,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -246,7 +246,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourTea_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.409719"
+        "created_at": "2026-04-14T18:48:00.435054"
       }
     },
     {
@@ -256,7 +256,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "2.32 GB",
-      "size_bytes": 2493047836,
+      "size_bytes": 2493048940,
       "episodes": 199,
       "frames": 41790,
       "sample_videos": [
@@ -266,7 +266,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PourWater_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.418235"
+        "created_at": "2026-04-14T18:48:00.446270"
       }
     },
     {
@@ -276,7 +276,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "454.02 MB",
-      "size_bytes": 476070086,
+      "size_bytes": 476071145,
       "episodes": 100,
       "frames": 21000,
       "sample_videos": [
@@ -286,7 +286,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_left_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.422990"
+        "created_at": "2026-04-14T18:48:00.452115"
       }
     },
     {
@@ -296,7 +296,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "448.05 MB",
-      "size_bytes": 469810307,
+      "size_bytes": 469811373,
       "episodes": 100,
       "frames": 21000,
       "sample_videos": [
@@ -306,7 +306,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressButton_right_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.427937"
+        "created_at": "2026-04-14T18:48:00.458428"
       }
     },
     {
@@ -316,7 +316,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.36 GB",
-      "size_bytes": 1462856854,
+      "size_bytes": 1462857926,
       "episodes": 201,
       "frames": 42210,
       "sample_videos": [
@@ -326,7 +326,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_PressWater_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.436866"
+        "created_at": "2026-04-14T18:48:00.469863"
       }
     },
     {
@@ -336,7 +336,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.31 GB",
-      "size_bytes": 1407912501,
+      "size_bytes": 1407913545,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -346,7 +346,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_ServeTea_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.446046"
+        "created_at": "2026-04-14T18:48:00.479081"
       }
     },
     {
@@ -356,7 +356,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "678.06 MB",
-      "size_bytes": 710997635,
+      "size_bytes": 710998696,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -366,7 +366,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_StackBowl/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.455385"
+        "created_at": "2026-04-14T18:48:00.488191"
       }
     },
     {
@@ -376,7 +376,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.92 GB",
-      "size_bytes": 2061043322,
+      "size_bytes": 2061044550,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -386,7 +386,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_StackCups/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.464326"
+        "created_at": "2026-04-14T18:48:00.497630"
       }
     },
     {
@@ -396,7 +396,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "1.62 GB",
-      "size_bytes": 1738540023,
+      "size_bytes": 1738541108,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -406,7 +406,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_TeaLid_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.473007"
+        "created_at": "2026-04-14T18:48:00.506522"
       }
     },
     {
@@ -416,7 +416,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "755.80 MB",
-      "size_bytes": 792510133,
+      "size_bytes": 792511206,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -426,7 +426,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_TransButtons/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.481886"
+        "created_at": "2026-04-14T18:48:00.515864"
       }
     },
     {
@@ -436,7 +436,7 @@
       "robot_type": "rm75",
       "fps": 20,
       "size": "3.95 GB",
-      "size_bytes": 4239572276,
+      "size_bytes": 4239572188,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -446,7 +446,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_colorful_cube_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.492167"
+        "created_at": "2026-04-14T18:48:00.527666"
       }
     },
     {
@@ -456,7 +456,7 @@
       "robot_type": "rm75",
       "fps": 20,
       "size": "2.39 GB",
-      "size_bytes": 2568694471,
+      "size_bytes": 2568694383,
       "episodes": 201,
       "frames": 42210,
       "sample_videos": [
@@ -466,7 +466,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_cup_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.501298"
+        "created_at": "2026-04-14T18:48:00.539297"
       }
     },
     {
@@ -476,7 +476,7 @@
       "robot_type": "acone",
       "fps": 20,
       "size": "1.10 GB",
-      "size_bytes": 1176371204,
+      "size_bytes": 1176371116,
       "episodes": 201,
       "frames": 42210,
       "sample_videos": [
@@ -486,7 +486,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_fruit_to_basket_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.512844"
+        "created_at": "2026-04-14T18:48:00.552405"
       }
     },
     {
@@ -496,7 +496,7 @@
       "robot_type": "realman75",
       "fps": 20,
       "size": "5.08 GB",
-      "size_bytes": 5456544436,
+      "size_bytes": 5456545749,
       "episodes": 200,
       "frames": 42000,
       "sample_videos": [
@@ -506,67 +506,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_longterm1/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.523638"
-      }
-    },
-    {
-      "id": "DUR_rubbish_bin_convert",
-      "name": "DUR_rubbish_bin_convert",
-      "task": "Right hand open the rubbish bin, left hand picks up a paper ball and put it into the bin. Then right hand closes the bin.",
-      "robot_type": "rm75",
-      "fps": 20,
-      "size": "3.91 GB",
-      "size_bytes": 4200118876,
-      "episodes": 201,
-      "frames": 42210,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_rubbish_bin_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-14T11:05:00.533024"
-      }
-    },
-    {
-      "id": "DUR_shelf_convert",
-      "name": "DUR_shelf_convert",
-      "task": "",
-      "robot_type": "unknown",
-      "fps": 30,
-      "size": "79.63 MB",
-      "size_bytes": 83493909,
-      "episodes": 201,
-      "frames": 42210,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_shelf_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-14T11:05:00.541758"
-      }
-    },
-    {
-      "id": "DUR_sweep_paper_ball_convert",
-      "name": "DUR_sweep_paper_ball_convert",
-      "task": "",
-      "robot_type": "unknown",
-      "fps": 30,
-      "size": "76.75 MB",
-      "size_bytes": 80479319,
-      "episodes": 201,
-      "frames": 42210,
-      "sample_videos": [
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_000001.mp4",
-        "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_000002.mp4"
-      ],
-      "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_sweep_paper_ball_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
-      "_meta": {
-        "created_at": "2026-04-14T11:05:00.549673"
+        "created_at": "2026-04-14T18:48:00.561471"
       }
     },
     {
@@ -576,7 +516,7 @@
       "robot_type": "acone",
       "fps": 20,
       "size": "2.21 GB",
-      "size_bytes": 2367806817,
+      "size_bytes": 2367806729,
       "episodes": 183,
       "frames": 38430,
       "sample_videos": [
@@ -586,7 +526,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_twist_bottle_cap_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.559187"
+        "created_at": "2026-04-14T18:48:00.570406"
       }
     },
     {
@@ -596,7 +536,7 @@
       "robot_type": "acone",
       "fps": 20,
       "size": "4.40 GB",
-      "size_bytes": 4726062173,
+      "size_bytes": 4726062085,
       "episodes": 220,
       "frames": 46200,
       "sample_videos": [
@@ -606,7 +546,7 @@
       ],
       "video_template": "https://huggingface.co/datasets/TeleEmbodied/hdf5-lerobot/resolve/main/DUR_unlock_convert/videos/chunk-000/observation.images.image_0/episode_{episode_index:06d}.mp4",
       "_meta": {
-        "created_at": "2026-04-14T11:05:00.578427"
+        "created_at": "2026-04-14T18:48:00.588208"
       }
     }
   ]
